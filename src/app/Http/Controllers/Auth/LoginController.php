@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller,Session;
+use App\User;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Socialite;// 追加！
 use Illuminate\Http\Request;// 追加！
@@ -63,12 +64,17 @@ class LoginController extends Controller
         $github_user = Socialite::driver('github')->user();
 
         $now = date("Y/m/d H:i:s");
-        $app_user = DB::select('select * from public.user where github_id = ?', [$github_user->user['login']]);
+//        $app_user = DB::select('select * from public.users where github_id = ?', [$github_user->user['login']]);
+        $app_user = User::where('github_id',$github_user->user['login'] )->first();
+
+
         if (empty($app_user)) {
-            DB::insert('insert into public.user (github_id, created_at, updated_at) values (?, ?, ?)', [$github_user->user['login'], $now, $now]);
+            $app_user = new User;
+            $app_user->github_id = $github_user->user['login'];
+            $app_user->save();
+//            DB::insert('insert into public.users (github_id, created_at, updated_at) values (?, ?, ?)', [$github_user->user['login'], $now, $now]);
         }
         $request->session()->put('github_token', $github_user->token);
-
         return redirect('home ');
     }
 
