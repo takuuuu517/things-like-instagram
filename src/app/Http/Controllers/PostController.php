@@ -52,12 +52,11 @@ class PostController extends Controller
             $post = new Post;
 //            $app_user->github_id = $github_user->user['login'];
             $post->user_id = $user->id;
-            $post->picture_path = $path;
+            $post->picture_path = basename($path);
             $post->caption = $request->input('caption');
             $post->save();
 
-
-            return view('home')->with('filename', basename($path));
+            return redirect('home');
         } else {
             return redirect()
                 ->back()

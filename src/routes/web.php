@@ -35,3 +35,15 @@ Route::get('/post', 'PostController@index');
 
 
 Route::get('/', 'LoginhomeController@index');
+
+Route::get('/profile', 'ProfileController@index');
+
+
+//Route::get('/profile', function(){
+//   return view('profile');
+//});
+
+//
+//Route::get('/profile/{user}', function($user){
+//   return view('profile')->with('user', ($user));
+//});

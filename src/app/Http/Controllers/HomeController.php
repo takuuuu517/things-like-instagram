@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Post;
 use Socialite;// 追加！
 
 use App\User;
@@ -19,10 +20,13 @@ class HomeController extends Controller
         $github_user = Socialite::driver('github')->userFromToken($token);
 //        return view('home');
 
+        $post = Post::all()->sortBy('created_at');
+
         return view('home', [
             'nickname' => $github_user->nickname,
             'token' => $token,
             'avatar'=> $github_user->avatar,
+            'post' => $post,
         ]);
     }
 
