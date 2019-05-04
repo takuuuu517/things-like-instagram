@@ -19,7 +19,7 @@ return [
         'client_secret' => env('GITHUB_CLIENT_SECRET'), // 追加！
         'redirect' => '/login/github/callback',
     ],
-    
+
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
         'secret' => env('MAILGUN_SECRET'),
