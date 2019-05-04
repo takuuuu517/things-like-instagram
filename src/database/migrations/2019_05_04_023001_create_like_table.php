@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateUsersTable extends Migration
+class CreateLikeTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,13 @@ class CreateUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
+        Schema::create('like', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('github_id')->unique();
+            $table->unsignedBigInteger('user_id');
+            $table->unsignedBigInteger('post_id');
 
-            $table->rememberToken();
+            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('post_id')->references('id')->on('post');
             $table->timestamps();
         });
     }
@@ -29,11 +31,6 @@ class CreateUsersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('users');
-    }
-
-    public function posts()
-    {
-        return $this->hasMany('App\Post');
+        Schema::dropIfExists('like');
     }
 }
