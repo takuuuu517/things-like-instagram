@@ -16,7 +16,7 @@ class ProfileController extends Controller
         $nuckname = $request->input('user');
         $user = User::where('github_id', $nuckname)->first();
 //        $user = User::all();
-        $post = $user->posts;
+        $post = $user->posts->sortByDesc('created_at');
         $like = 0;
         foreach ($post as $p){
             $like = $like + $p->likes->count();

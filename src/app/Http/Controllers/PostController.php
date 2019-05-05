@@ -22,6 +22,13 @@ class PostController extends Controller
         return redirect('/');
     }
 
+    public function destroy($id){
+//        dd("asf . $id");
+
+        Post::find($id)->delete();
+        return redirect('/home');
+    }
+
     public function upload(Request $request)
     {
         $token = $request->session()->get('github_token', null);

@@ -38,6 +38,8 @@ Route::get('/', 'LoginhomeController@index');
 
 Route::get('/profile', 'ProfileController@index');
 
+Route::delete('/post/{post}', 'PostController@destroy');
+
 
 //Route::get('/profile', function(){
 //   return view('profile');

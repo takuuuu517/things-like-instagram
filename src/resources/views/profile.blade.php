@@ -2,16 +2,16 @@
 @section('content')
 
 
-    <div class="row">
-        <div class="col-md-3 offset-md-1">
+    <div class="row ">
+        <div class="col-md-2 offset-md-2 justify-content-center">
             <div class="img-thumbnail">
                 <img src=" {{$avatar}}" alt="Lights" style="width:100%">
             </div>
         </div>
-        <div class="col-md-3 offset-md-1">
+        <div class="col-md-2 offset-md-1 justify-content-center">
             {{$user->github_id}}
         </div>
-        <div class="col-md-3 offset-md-1">
+        <div class="col-md-2 offset-md-1 justify-content-center">
             {{$like}}
         </div>
     </div>
@@ -19,9 +19,6 @@
     <br>
     <hr>
     <br>
-
-
-
 
     @isset($post)
         <div class="row">
