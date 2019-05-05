@@ -1,18 +1,18 @@
 @extends('header')
 @section('content')
-
-
     <div class="row ">
-        <div class="col-md-2 offset-md-2 justify-content-center">
+        <div class="col-md-2 offset-md-3 justify-content-center">
             <div class="img-thumbnail">
                 <img src=" {{$avatar}}" alt="Lights" style="width:100%">
             </div>
         </div>
-        <div class="col-md-2 offset-md-1 justify-content-center">
-            {{$user->github_id}}
+        <div class="col-md-2 offset-md-0 justify-content-center"style="margin-top: auto; margin-bottom: auto">
+            <p>ユーザー名</p>
+            <h3>{{$user->github_id}}</h3>
         </div>
-        <div class="col-md-2 offset-md-1 justify-content-center">
-            {{$like}}
+        <div class="col-md-2 offset-md-0 justify-content-center"style="margin-top: auto; margin-bottom: auto" >
+            <p>いいね合計数</p>
+            <h3>{{$like}}</h3>
         </div>
     </div>
 

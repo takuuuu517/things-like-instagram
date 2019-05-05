@@ -40,6 +40,8 @@ Route::get('/profile', 'ProfileController@index');
 
 Route::delete('/post/{post}', 'PostController@destroy');
 
+Route::get('/liker', 'LikerController@index');
+
 
 //Route::get('/profile', function(){
 //   return view('profile');

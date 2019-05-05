@@ -25,16 +25,18 @@
                             </div>
                             <img src="{{ asset('storage/' . $p->picture_path)}}" alt="Lights" style="width:100%">
 
-                            <div class="caption">
+                            <div class="caption" style="margin-left: 1%; margin-top: 1%">
                                 <p>{{ $p->caption }}</p>
                             </div>
 
-                            <div class="d-flex">
-{{--                                <div class="p-2 mr-auto bg-info">Flex item 1</div>--}}
-                                <div class="p-2 ml-auto">Flex item 2</div>
-                                <img src="{{ asset('storage/' . $like)}}" alt="Lights" style="width:5%; height:5%">
+                            <div class="d-flex" >
+                                <form action="{{ url('liker') }}" method="get" class="p-2 ml-auto mt-auto mb-auto ">
+                                    <button name="post" class="btn btn-outline-info" type="submit" value="{{$p->id}}">いいねしたユーザー</button>
+                                </form>
+{{--                                <div style="margin-top: auto; margin-bottom: auto">--}}
+                                <img src="{{ asset('storage/' . $like)}}" alt="like" style="width:5%; height:5%; cursor:pointer; margin-top: auto; margin-bottom: auto" onclick="DoSomething();" >
+{{--                                </div>--}}
                             </div>
-
                         </div>
                 <br>
                 <br>
