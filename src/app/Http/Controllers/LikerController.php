@@ -19,30 +19,17 @@ class LikerController extends Controller
     public function index(Request $request)
     {
         $postid = $request->input('post');
-//        dd($postid);
-//        $user = User::where('github_id', $nuckname)->first();
-
-//        $likes = Like::where('post_id', $postid);
-        $likes = Like::all()->where('post_id', $postid);
-
         $users = DB::table('likes')
                 ->join('posts', 'likes.post_id', '=', 'posts.id')
                 ->join('users', 'users.id', '=', 'likes.user_id')
                 ->select('users.id','users.github_id','users.avatar_path')
                 ->where('posts.id','=',$postid)
                 ->get();
-
-//        foreach ($likes as $l){
-//            dd($l->post_id);
-//        }
-
-
-
-//        dd($likes->user_id);
-
-
         return view('liker')->with('users', $users);
+    }
 
+    public function processlike(Request $request){
+        
     }
 
 }

@@ -41,6 +41,7 @@ Route::get('/profile', 'ProfileController@index');
 Route::delete('/post/{post}', 'PostController@destroy');
 
 Route::get('/liker', 'LikerController@index');
+Route::post('/liker','LikerController@processlike');
 
 
 //Route::get('/profile', function(){

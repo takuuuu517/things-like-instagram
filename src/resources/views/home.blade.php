@@ -1,6 +1,8 @@
 @extends('header')
 @section('content')
 
+
+
     <?php $like = "8n8eyl5RvZWkGfWc7jaFod3JUeYgWqvlBEByR0lW.png"; ?>
 
     @isset($post)
@@ -34,7 +36,7 @@
                                     <button name="post" class="btn btn-outline-info" type="submit" value="{{$p->id}}">いいねしたユーザー</button>
                                 </form>
 {{--                                <div style="margin-top: auto; margin-bottom: auto">--}}
-                                <img src="{{ asset('storage/' . $like)}}" alt="like" style="width:5%; height:5%; cursor:pointer; margin-top: auto; margin-bottom: auto" onclick="DoSomething();" >
+                                <img src="{{ asset('storage/' . $like)}}" id="like" alt="like" style="width:5%; height:5%; cursor:pointer; margin-top: auto; margin-bottom: auto" onclick="likeClicked();" >
 {{--                                </div>--}}
                             </div>
                         </div>
