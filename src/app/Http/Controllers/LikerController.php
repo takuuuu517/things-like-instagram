@@ -6,6 +6,7 @@ use App\User;
 use App\Like;
 use App\Post;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
 
@@ -29,7 +30,24 @@ class LikerController extends Controller
     }
 
     public function processlike(Request $request){
-        
+        $post_id = $request['post_id'];
+        $user_id = $request['user_id'];
+
+//        $user = User::find($user_id);
+        $user = Auth::user();
+        $like = $user->likes()->where('post_id', $post_id)->first();
+
+        if($like){
+            $like->delete();
+        }
+        else{
+            $like = new Like();
+            $like->user_id = $user_id;
+            $like->post_id = $post_id;
+            $like->save();
+        }
+
+        return null;
     }
 
 }
