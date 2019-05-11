@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4539f456-dbfc-4016-ba7d-52fb7ca1a3d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/views/paginator.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock" beforeDir="false" afterPath="$PROJECT_DIR$/laradock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laradock/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/nginx/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/Github/GithubController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/Github/GithubController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/LikerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/LikerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/LoginhomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/LoginhomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/ProfileController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/css/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/css/mystyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/js/like.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/js/like.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/views/github.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/github.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/views/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/views/liker.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/liker.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/post.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,28 +29,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/views/home.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="46" column="193" selection-start-line="46" selection-start-column="182" selection-end-line="46" selection-end-column="193" />
-              <folding>
-                <element signature="e#2451#2533#0#HTML" expanded="true" />
-                <element signature="e#2726#2808#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/public/js/like.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -74,15 +36,6 @@
               <folding>
                 <element signature="e#39#52#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/Github/GithubController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="28" column="124" selection-start-line="28" selection-start-column="124" selection-end-line="28" selection-end-column="124" />
             </state>
           </provider>
         </entry>
@@ -135,8 +88,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laradock/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Procfile">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/vendor/symfony/var-dumper/Server/Connection.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -169,7 +141,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/laradock" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -182,7 +154,6 @@
         <option value="$PROJECT_DIR$/src/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/src/database/migrations/2019_05_04_023001_create_like_table.php" />
         <option value="$PROJECT_DIR$/src/database/migrations/2019_05_04_022948_create_post_table.php" />
-        <option value="$PROJECT_DIR$/src/.env" />
         <option value="$PROJECT_DIR$/src/app/Post.php" />
         <option value="$PROJECT_DIR$/src/app/Like.php" />
         <option value="$PROJECT_DIR$/src/database/migrations/2019_05_04_055749_create_likes_table.php" />
@@ -210,6 +181,8 @@
         <option value="$PROJECT_DIR$/src/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/src/app/Http/Controllers/LikerController.php" />
         <option value="$PROJECT_DIR$/src/app/Http/Controllers/PostController.php" />
+        <option value="$PROJECT_DIR$/src/.env" />
+        <option value="$PROJECT_DIR$/src/Procfile" />
       </list>
     </option>
   </component>
@@ -324,45 +297,6 @@
               <item name="things-like-instagram" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="things-like-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="things-like-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="things-like-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="things-like-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="things-like-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="things-like-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="things-like-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="things-like-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="things-like-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="things-like-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Github" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -406,12 +340,12 @@
       <workItem from="1556914109126" duration="26508000" />
       <workItem from="1557023762625" duration="23143000" />
       <workItem from="1557116061663" duration="13049000" />
-      <workItem from="1557560321768" duration="9711000" />
+      <workItem from="1557560321768" duration="10045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72411000" />
+    <option name="totallyTimeSpent" value="72745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -442,21 +376,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/storage/app/public/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/Profile.php" />
-    <entry file="file://$PROJECT_DIR$/src/vendor/composer/autoload_classmap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="3327" column="103" selection-start-line="3327" selection-start-column="103" selection-end-line="3327" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -761,6 +680,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laradock/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Procfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendor/symfony/var-dumper/Server/Connection.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
