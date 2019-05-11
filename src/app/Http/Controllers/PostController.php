@@ -32,7 +32,7 @@ class PostController extends Controller
     public function upload(Request $request)
     {
         $token = $request->session()->get('github_token', null);
-        $github_user = Socialite::driver('github')->stateless()->userFromToken($token);
+        $github_user = Socialite::driver('github')->userFromToken($token);
         $user = User::where('github_id',$github_user->user['login'] )->first();
 
 
