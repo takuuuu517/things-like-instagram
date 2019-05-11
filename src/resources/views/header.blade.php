@@ -6,11 +6,10 @@
 
 
     {{--        <base href="{{URL::asset('/')}}" target="_blank">--}}
-    <link rel="stylesheet" href="{{ url('css/mystyle.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/mystyle.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/bootstrap.min.css') }}">
 
-    <link rel="stylesheet" href="{{ url('css/bootstrap.min.css') }}">
-
-    <script src="{{ url('js/jquery-3.4.0.min.js') }}"></script>
+    <script src="{{ secure_asset('js/jquery-3.4.0.min.js') }}"></script>
     <meta name="csrf-token" content="{{ csrf_token() }}" />
 
 </head>
@@ -31,9 +30,9 @@
 
 <div class="container general_margin">
     @yield('content')
-    <script src="{{ url('js/popper.min.js') }}"></script>
-    <script src="{{ url('js/bootstrap.min.js') }}"></script>
-    <script src="{{asset('/js/like.js')}}"></script>
+    <script src="{{ secure_asset('js/popper.min.js') }}"></script>
+    <script src="{{ secure_asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{secure_asset('/js/like.js')}}"></script>
 </div>
 </body>
 </html>
