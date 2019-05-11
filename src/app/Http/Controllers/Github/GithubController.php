@@ -14,7 +14,7 @@ class GithubController extends Controller
         $token = $request->session()->get('github_token', null);
 
         try {
-            $github_user = Socialite::driver('github')->userFromToken($token);
+            $github_user = Socialite::driver('github')->stateless()->userFromToken($token);
         } catch (\Exception $e) {
             return redirect('login/github');
         }
@@ -43,7 +43,7 @@ class GithubController extends Controller
     public function createIssue(Request $request)
     {
         $token = $request->session()->get('github_token', null);
-        $user = Socialite::driver('github')->userFromToken($token);
+        $user = Socialite::driver('github')->stateless()->userFromToken($token);
 
         $client = new \GuzzleHttp\Client();
         $res = $client->request('POST', 'https://api.github.com/repos/' . $user->user['login'] . '/' . $request->input('repo') . '/issues', [

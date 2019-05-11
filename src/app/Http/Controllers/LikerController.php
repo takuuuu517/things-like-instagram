@@ -32,11 +32,11 @@ class LikerController extends Controller
         $post_id = $request['post_id'];
         $user_id = $request['user_id'];
 
-        $user = User::find($user_id)->sharedLock();
+        $user = User::find($user_id);
         $like = $user->likes()->where('post_id', $post_id)->first();
 
         if($like){
-            $like->lockForUpdate()->delete();
+            $like->delete();
         }
         else{
             $like = new Like();
