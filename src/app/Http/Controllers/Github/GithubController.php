@@ -26,7 +26,7 @@ class GithubController extends Controller
             ]
         ]);
 
-        $app_user = DB::select('select * from public.user where github_id = ?', [$github_user->user['login']])->sharedLock();
+        $app_user = DB::select('select * from public.user where github_id = ?', [$github_user->user['login']]);
 
         return redirect('/home');
 

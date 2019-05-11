@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <title>Header</title>
 
-    <link rel="stylesheet" href="{{ url('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ url('css/mystyle.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/mystyle.css') }}">
 
-    <script src="{{ url('js/jquery-3.4.0.min.js') }}"></script>
+    <script src="{{ secure_asset('js/jquery-3.4.0.min.js') }}"></script>
 
 </head>
 <body>
@@ -22,8 +22,8 @@
             </div>
         </div>
     </div>
-    <script src="{{ url('js/popper.min.js') }}"></script>
-    <script src="{{ url('js/bootstrap.min.js') }}"></script>
+    <script src="{{ secure_asset('js/popper.min.js') }}"></script>
+    <script src="{{ secure_asset('js/bootstrap.min.js') }}"></script>
 </div>
 
 

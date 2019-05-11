@@ -11,11 +11,11 @@
 |
 */
 
-Route::get('github', 'Github\GithubController@top');
-Route::post('github/issue', 'Github\GithubController@createIssue');
-Route::get('login/github', 'Auth\LoginController@redirectToProvider');
-Route::get('login/github/callback', 'Auth\LoginController@handleProviderCallback');
-Route::post('user', 'User\UserController@updateUser');
+Route::get('/github', 'Github\GithubController@top');
+Route::post('/github/issue', 'Github\GithubController@createIssue');
+Route::get('/login/github', 'Auth\LoginController@redirectToProvider');
+Route::get('/login/github/callback', 'Auth\LoginController@handleProviderCallback');
+Route::post('/user', 'User\UserController@updateUser');
 
 //Route::get('/', 'HomeController@index');
 Route::post('/upload', 'PostController@upload');
@@ -25,7 +25,7 @@ Route::get('/logout/github', 'Auth\LoginController@userlogout');
 Route::get('/home', 'HomeController@index');
 
 
-Route::get('auth/logout', 'Auth\AuthController@logout');
+Route::get('/auth/logout', 'Auth\AuthController@logout');
 
 Route::get('/post', 'PostController@index');
 
