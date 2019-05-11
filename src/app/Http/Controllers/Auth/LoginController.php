@@ -71,10 +71,11 @@ class LoginController extends Controller
         if (empty($app_user)) {
             $app_user = new User;
             $app_user->github_id = $github_user->user['login'];
+            $app_user->avatar_path = $github_user->getAvatar();
             $app_user->save();
 //            DB::insert('insert into public.users (github_id, created_at, updated_at) values (?, ?, ?)', [$github_user->user['login'], $now, $now]);
         }
-        Auth::login($app_user);
+//        Auth::login($app_user);
         $request->session()->put('github_token', $github_user->token);
         return redirect('home ');
     }

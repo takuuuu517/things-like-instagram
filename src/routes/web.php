@@ -11,10 +11,6 @@
 |
 */
 
-//Route::get('/', function () {
-//    return view('loginhome');
-//});
-
 Route::get('github', 'Github\GithubController@top');
 Route::post('github/issue', 'Github\GithubController@createIssue');
 Route::get('login/github', 'Auth\LoginController@redirectToProvider');
@@ -42,13 +38,3 @@ Route::delete('/post/{post}', 'PostController@destroy');
 
 Route::get('/liker', 'LikerController@index');
 Route::post('/liker','LikerController@processlike');
-
-
-//Route::get('/profile', function(){
-//   return view('profile');
-//});
-
-//
-//Route::get('/profile/{user}', function($user){
-//   return view('profile')->with('user', ($user));
-//});

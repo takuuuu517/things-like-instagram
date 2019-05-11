@@ -3,8 +3,10 @@
 
 
 
-    <?php $notlike = "8n8eyl5RvZWkGfWc7jaFod3JUeYgWqvlBEByR0lW.png"; ?>
-    <?php $like = "dQKNLx9CqLnJ9x0jSHwhmfjW0y0eeEzOMJtDe5DP.png"; ?>
+    <?php
+        $notlike = "https://image.flaticon.com/icons/svg/149/149222.svg";
+        $like = "https://image.flaticon.com/icons/svg/148/148841.svg";
+    ?>
 
 
 
@@ -23,7 +25,7 @@
                                         <form action="/post/{{$p->id}}" method="post" class="p-2 ml-auto">
                                             @method('DELETE')
                                             @csrf
-                                            <button class="btn btn-outline-warning" type="submit">投稿を削除</button>
+                                            <button class="btn btn-outline-warning" type="submit" onclick='return confirm("投稿を削除します。よろしいですか？");'>投稿を削除</button>
                                         </form>
                                     @endif
                                 @endisset
@@ -42,12 +44,12 @@
                                 @if(isset($user))
                                    <p hidden>{{$isLike = $user->likes()->where('post_id', $p->id)->first()}} </p>
                                     @if(isset($isLike))
-                                        <img src="{{ asset('storage/' . $like)}}" id="like{{$p->id}}" alt="like" style="width:5%; height:5%; cursor:pointer; margin-top: auto; margin-bottom: auto" onclick="likeClicked({{$p->id}}, {{$user->id}}, 1);" >
+                                        <img src={{$like}} id="like{{$p->id}}" alt="like" style="width:5%; height:5%; cursor:pointer; margin-top: auto; margin-bottom: auto" onclick="likeClicked({{$p->id}}, {{$user->id}}, 1);" >
                                     @else
-                                        <img src="{{ asset('storage/' . $notlike)}}" id="like{{$p->id}}" alt="like" style="width:5%; height:5%; cursor:pointer; margin-top: auto; margin-bottom: auto" onclick="likeClicked({{$p->id}}, {{$user->id}}, 0);" >
+                                        <img src="{{$notlike}}" id="like{{$p->id}}" alt="like" style="width:5%; height:5%; cursor:pointer; margin-top: auto; margin-bottom: auto" onclick="likeClicked({{$p->id}}, {{$user->id}}, 0);" >
                                     @endif
                                 @else
-                                    <img src="{{ asset('storage/' . $notlike)}}" alt="like" style="width:5%; height:5%; margin-top: auto; margin-bottom: auto" >
+                                    <img src="{{$notlike}}" alt="like" style="width:5%; height:5%; margin-top: auto; margin-bottom: auto" >
                                 @endif
 
 {{--                                </div>--}}
@@ -61,9 +63,13 @@
         </div>
 
         <div class="row justify-content-center">
-            {!! $post->links(); !!}
-            <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-
+            {!! $post->links('paginator'); !!}
         </div>
+
+        <div class="row justify-content-center">
+            Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+        </div>
+
+
 
 @endsection

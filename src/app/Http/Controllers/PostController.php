@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\User;
 use App\Post;
+use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Socialite;// 追加！
 
 class PostController extends Controller
@@ -23,7 +24,6 @@ class PostController extends Controller
     }
 
     public function destroy($id){
-//        dd("asf . $id");
 
         Post::find($id)->delete();
         return redirect('/home');
@@ -49,7 +49,6 @@ class PostController extends Controller
                 'file' => 'max:60000',
             ],
             'caption' => [
-                'required',
                 'max:200',
             ]
         ]);
@@ -57,7 +56,6 @@ class PostController extends Controller
         if ($request->file('file')->isValid([]) ) {
             $path = $request->file->store('public');
             $post = new Post;
-//            $app_user->github_id = $github_user->user['login'];
             $post->user_id = $user->id;
             $post->picture_path = basename($path);
             $post->caption = $request->input('caption');
