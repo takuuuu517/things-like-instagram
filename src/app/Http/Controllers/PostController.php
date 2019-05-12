@@ -54,11 +54,13 @@ class PostController extends Controller
         ]);
 
         if ($request->file('file')->isValid([]) ) {
-            $path = $request->file->store('public');
+//            $path = $request->file->store('public');
             $post = new Post;
             $post->user_id = $user->id;
-            $post->picture_path = basename($path);
+//            $post->picture_path = basename($path);
             $post->caption = $request->input('caption');
+            $image = base64_encode(file_get_contents($request->image->getRealPath()));
+            $post->image = $image;
             $post->save();
 
             return redirect('home');
