@@ -63,7 +63,7 @@ class PostController extends Controller
             $post->image = $image;
             $post->save();
 
-            return redirect('home');
+            return redirect('/home');
         } else {
             return redirect()
                 ->back()
