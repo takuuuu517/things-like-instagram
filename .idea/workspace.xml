@@ -4,7 +4,7 @@
     <list default="true" id="4539f456-dbfc-4016-ba7d-52fb7ca1a3d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/laradock" beforeDir="false" afterPath="$PROJECT_DIR$/laradock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laradock/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/nginx/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="783">
@@ -116,14 +116,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="480">
+              <caret line="32" column="84" lean-forward="true" selection-start-line="32" selection-start-column="84" selection-end-line="32" selection-end-column="84" />
               <folding>
-                <element signature="e#1464#1501#0#HTML" expanded="true" />
-                <element signature="e#1492#1510#0#HTML" expanded="true" />
+                <element signature="e#1440#1472#0#HTML" expanded="true" />
+                <element signature="e#1483#1501#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,8 +199,8 @@
         <option value="$PROJECT_DIR$/src/database/migrations/2019_05_12_082907_add_image_to_posts.php" />
         <option value="$PROJECT_DIR$/src/resources/views/post.blade.php" />
         <option value="$PROJECT_DIR$/src/resources/views/profile.blade.php" />
-        <option value="$PROJECT_DIR$/src/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/src/app/Http/Controllers/PostController.php" />
+        <option value="$PROJECT_DIR$/src/resources/views/home.blade.php" />
       </list>
     </option>
   </component>
@@ -399,12 +399,12 @@
       <workItem from="1557023762625" duration="23143000" />
       <workItem from="1557116061663" duration="13049000" />
       <workItem from="1557560321768" duration="13499000" />
-      <workItem from="1557648736872" duration="3195000" />
+      <workItem from="1557648736872" duration="3519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79394000" />
+    <option name="totallyTimeSpent" value="79718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -679,17 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#1464#1501#0#HTML" expanded="true" />
-            <element signature="e#1492#1510#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/views/paginator.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -740,6 +729,17 @@
           <caret line="79" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="84" lean-forward="true" selection-start-line="32" selection-start-column="84" selection-end-line="32" selection-end-column="84" />
+          <folding>
+            <element signature="e#1440#1472#0#HTML" expanded="true" />
+            <element signature="e#1483#1501#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

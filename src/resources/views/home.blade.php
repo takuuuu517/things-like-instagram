@@ -30,7 +30,7 @@
                                     @endif
                                 @endisset
                             </div>
-                            <img src="data:image/png;base64,$p->image" alt="Lights" style="width:100%">
+                            <img src="data:image/png;base64,{{$p->image}}" alt="Lights" style="width:100%">
 
 {{--                            <img src="{{ asset('storage/' . $p->picture_path)}}" alt="Lights" style="width:100%">--}}
 
