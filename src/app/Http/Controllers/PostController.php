@@ -59,8 +59,11 @@ class PostController extends Controller
             $post->user_id = $user->id;
 //            $post->picture_path = basename($path);
             $post->caption = $request->input('caption');
-            $image = base64_encode(file_get_contents($request->file->getRealPath()));
-            $post->image = $image;
+//            $image = base64_encode(file_get_contents($request->file->getRealPath()));
+//            $post->image = $image;
+
+            $post->picture_path = 'asdf';
+            $post->image = 'hello';
             $post->save();
 
             return redirect('/home');
