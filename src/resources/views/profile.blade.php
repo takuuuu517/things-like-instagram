@@ -25,7 +25,7 @@
             @foreach ($post as $p)
                 <div class="col-md-4">
                     <div class="img-thumbnail">
-                        <img src="data:image/png;base64,{{$p->image}}">
+                        <img src="data:image/png;base64,{{$p->image}}" alt="posts" style="width:100%">
 {{--                        <img src="{{ asset('storage/' . $p->picture_path)}}" alt="Lights" style="width:100%">--}}
                     </div>
                 </div>
