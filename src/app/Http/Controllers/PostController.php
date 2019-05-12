@@ -55,6 +55,8 @@ class PostController extends Controller
 
         if ($request->file('file')->isValid([]) ) {
             $image = base64_encode(file_get_contents($request->file->getRealPath()));
+            return redirect('/home');
+
 
             Bbs::insert([
                 "image" => $image,
