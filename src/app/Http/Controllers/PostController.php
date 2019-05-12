@@ -55,15 +55,15 @@ class PostController extends Controller
 
         if ($request->file('file')->isValid([]) ) {
             $image = base64_encode(file_get_contents($request->file->getRealPath()));
-            return redirect('/home');
 
 
-            Bbs::insert([
+            Post::insert([
                 "image" => $image,
                 "user_id" => $user->id,
                 "picture_path" => 'hello',
                 "caption" => $request->input('caption'),
             ]);
+            return redirect('/home');
 
 //            $path = $request->file->store('public');
 //            $post = new Post;
@@ -77,7 +77,6 @@ class PostController extends Controller
 //            $post->image = 'hello';
 //            $post->save();
 
-            return redirect('/home');
         } else {
             return redirect()
                 ->back()
