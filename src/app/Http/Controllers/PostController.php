@@ -54,6 +54,14 @@ class PostController extends Controller
         ]);
 
         if ($request->file('file')->isValid([]) ) {
+            $image = base64_encode(file_get_contents($request->file->getRealPath()));
+            Bbs::insert([
+                "image" => $image,
+                "user_id" => $user->id,
+                "picture_path" => 'hello',
+                "caption" => $request->input('caption'),
+            ]);
+
 //            $path = $request->file->store('public');
 //            $post = new Post;
 //            $post->user_id = $user->id;
