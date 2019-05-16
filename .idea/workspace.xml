@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4539f456-dbfc-4016-ba7d-52fb7ca1a3d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/custom.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laradock" beforeDir="false" afterPath="$PROJECT_DIR$/laradock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laradock/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/nginx/nginx.conf" afterDir="false" />
@@ -10,6 +11,7 @@
       <change beforePath="$PROJECT_DIR$/laradock/php-fpm/php7.1.ini" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/php-fpm/php7.1.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laradock/php-fpm/php7.2.ini" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/php-fpm/php7.2.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laradock/php-fpm/php7.3.ini" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/php-fpm/php7.3.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/Procfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,21 +25,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/PostController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
-              <folding>
-                <element signature="e#40#53#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/ProfileController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="180">
               <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
               <folding>
                 <element signature="e#40#53#0#PHP" expanded="true" />
@@ -47,10 +37,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/LoginhomeController.php">
+        <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+            <state relative-caret-position="843">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
               <folding>
                 <element signature="e#40#53#0#PHP" expanded="true" />
               </folding>
@@ -59,19 +49,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/views/profile.blade.php">
+        <entry file="file://$PROJECT_DIR$/src/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+            <state relative-caret-position="345">
+              <caret line="28" column="75" lean-forward="true" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laradock/php-fpm/php7.3.ini">
+        <entry file="file://$PROJECT_DIR$/src/Procfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="403" column="20" selection-start-line="403" selection-start-column="20" selection-end-line="403" selection-end-column="20" />
+            <state>
+              <caret column="56" lean-forward="true" selection-start-column="56" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/custom.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -103,7 +102,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laradock/php-fpm/php5.6.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
@@ -113,10 +112,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/views/home.blade.php">
+        <entry file="file://$PROJECT_DIR$/src/app/Post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="84" selection-start-line="32" selection-start-column="84" selection-end-line="32" selection-end-column="84" />
+            <state relative-caret-position="165">
+              <caret line="11" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -149,12 +148,12 @@
       <find>db</find>
       <find>max</find>
       <find>post_max_size</find>
-      <find>memory_limit</find>
       <find>upload_max_filesize</find>
+      <find>memory_limit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/laradock" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -183,7 +182,6 @@
         <option value="$PROJECT_DIR$/laradock/nginx/nginx.conf" />
         <option value="$PROJECT_DIR$/src/public/js/like.js" />
         <option value="$PROJECT_DIR$/src/app/Http/Controllers/ProfileController.php" />
-        <option value="$PROJECT_DIR$/src/Procfile" />
         <option value="$PROJECT_DIR$/src/resources/views/header.blade.php" />
         <option value="$PROJECT_DIR$/src/resources/views/loginhome.blade.php" />
         <option value="$PROJECT_DIR$/src/routes/web.php" />
@@ -202,6 +200,8 @@
         <option value="$PROJECT_DIR$/laradock/php-fpm/php7.1.ini" />
         <option value="$PROJECT_DIR$/laradock/php-fpm/php7.0.ini" />
         <option value="$PROJECT_DIR$/laradock/php-fpm/php5.6.ini" />
+        <option value="$PROJECT_DIR$/src/custom.ini" />
+        <option value="$PROJECT_DIR$/src/Procfile" />
       </list>
     </option>
   </component>
@@ -313,13 +313,7 @@
             <path>
               <item name="things-like-instagram" type="b2602c69:ProjectViewProjectNode" />
               <item name="things-like-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="laradock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="things-like-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="things-like-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="laradock" type="462c0819:PsiDirectoryNode" />
-              <item name="php-fpm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -367,12 +361,12 @@
       <workItem from="1557116061663" duration="13049000" />
       <workItem from="1557560321768" duration="13499000" />
       <workItem from="1557648736872" duration="4473000" />
-      <workItem from="1558015507307" duration="465000" />
+      <workItem from="1558015507307" duration="1078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81137000" />
+    <option name="totallyTimeSpent" value="81750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -403,12 +397,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/storage/app/public/A7sKooIDBrAHlNeMWDXxq0AtTzbp7KzPPeHQ9UtZ.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/storage/app/public/AXgJfQoJpDU8PDyUBy49i6xayIdtp5zq0buKDwuZ.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/storage/app/public/dQKNLx9CqLnJ9x0jSHwhmfjW0y0eeEzOMJtDe5DP.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -416,13 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -492,9 +473,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laradock/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Procfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/vendor/symfony/var-dumper/Server/Connection.php">
@@ -642,26 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/ProfileController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/LoginhomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -718,6 +676,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="405" column="33" selection-start-line="405" selection-start-column="33" selection-end-line="405" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/ProfileController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="843">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="28" column="75" lean-forward="true" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="56" lean-forward="true" selection-start-column="56" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/custom.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
