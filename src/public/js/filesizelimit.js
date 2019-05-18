@@ -1,6 +1,4 @@
-function fileupload() {
-
-
+// function fileupload() {
     var uploadField = document.getElementById("file");
     console.log(uploadField);
 
@@ -13,4 +11,4 @@ function fileupload() {
         }
         ;
     };
-}
+// }
