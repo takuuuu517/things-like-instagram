@@ -33,6 +33,7 @@
     <script src="{{ secure_asset('js/popper.min.js') }}"></script>
     <script src="{{ secure_asset('js/bootstrap.min.js') }}"></script>
     <script src="{{secure_asset('/js/like.js')}}"></script>
+    <script src="{{secure_asset('/js/filesizelimit.js')}}"></script>
 </div>
 </body>
 </html>
