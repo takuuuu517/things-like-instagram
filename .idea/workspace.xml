@@ -9,8 +9,7 @@
       <change beforePath="$PROJECT_DIR$/laradock/php-fpm/php7.1.ini" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/php-fpm/php7.1.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laradock/php-fpm/php7.2.ini" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/php-fpm/php7.2.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laradock/php-fpm/php7.3.ini" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/php-fpm/php7.3.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/ProfileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/js/filesizelimit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/js/filesizelimit.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/public/js/filesizelimit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -59,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/ProfileController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -201,10 +200,10 @@
         <option value="$PROJECT_DIR$/src/Procfile" />
         <option value="$PROJECT_DIR$/src/resources/views/header.blade.php" />
         <option value="$PROJECT_DIR$/src/resources/views/post.blade.php" />
-        <option value="$PROJECT_DIR$/src/public/js/filesizelimit.js" />
         <option value="$PROJECT_DIR$/src/app/Http/Controllers/PostController.php" />
         <option value="$PROJECT_DIR$/src/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/src/app/Http/Controllers/ProfileController.php" />
+        <option value="$PROJECT_DIR$/src/public/js/filesizelimit.js" />
       </list>
     </option>
   </component>
@@ -411,12 +410,12 @@
       <workItem from="1557116061663" duration="13049000" />
       <workItem from="1557560321768" duration="13499000" />
       <workItem from="1557648736872" duration="4473000" />
-      <workItem from="1558015507307" duration="4717000" />
+      <workItem from="1558015507307" duration="5523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85389000" />
+    <option name="totallyTimeSpent" value="86195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -733,27 +732,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/js/filesizelimit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/views/post.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -774,6 +756,23 @@
           <folding>
             <element signature="e#40#53#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/js/filesizelimit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
