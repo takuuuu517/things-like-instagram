@@ -20,7 +20,7 @@ class HomeController extends Controller
         header("Pragma: no-cache");
 
 
-        $post = Post::orderBy('created_at','DESC')->paginate(10);
+        $post = Post::orderBy('id','DESC')->paginate(10);
 
         if($request->session()->has("github_token")){
             $token = $request->session()->get('github_token', null);

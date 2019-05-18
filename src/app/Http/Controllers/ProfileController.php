@@ -11,7 +11,7 @@ class ProfileController extends Controller
     public function index(Request $request){
         $nickname = $request->input('user');
         $user = User::where('github_id', $nickname)->first();
-        $post = $user->posts->sortByDesc('created_at');
+        $post = $user->posts->sortByDesc('id');
         $like = 0;
         foreach ($post as $p){
             $like = $like + $p->likes->count();
