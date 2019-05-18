@@ -38,14 +38,14 @@ class PostController extends Controller
         $this->validate($request, [
             'file' => [
                 // 必須
-                'required|max:60000',
+                'required',
                 // アップロードされたファイルであること
                 'file',
                 // 画像ファイルであること
                 'image',
                 // MIMEタイプを指定
                 'mimes:jpeg,png,gif',
-//                'file' => 'max:60000',
+                'file' => 'max:60000',
             ],
             'caption' => [
                 'max:200',
