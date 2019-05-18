@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4539f456-dbfc-4016-ba7d-52fb7ca1a3d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/custom.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laradock" beforeDir="false" afterPath="$PROJECT_DIR$/laradock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laradock/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/nginx/nginx.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laradock/php-fpm/php5.6.ini" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/php-fpm/php5.6.ini" afterDir="false" />
@@ -11,7 +9,7 @@
       <change beforePath="$PROJECT_DIR$/laradock/php-fpm/php7.1.ini" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/php-fpm/php7.1.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laradock/php-fpm/php7.2.ini" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/php-fpm/php7.2.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laradock/php-fpm/php7.3.ini" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/php-fpm/php7.3.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/PostController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="843">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="836">
+              <caret line="85" column="33" lean-forward="true" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
               <folding>
                 <element signature="e#40#53#0#PHP" expanded="true" />
               </folding>
@@ -66,20 +64,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config/queue.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/custom.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laradock/php-fpm/php7.2.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="842" column="21" lean-forward="true" selection-start-line="842" selection-start-column="21" selection-end-line="842" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -192,7 +186,6 @@
         <option value="$PROJECT_DIR$/src/.env" />
         <option value="$PROJECT_DIR$/src/database/migrations/2019_05_12_082907_add_image_to_posts.php" />
         <option value="$PROJECT_DIR$/src/resources/views/post.blade.php" />
-        <option value="$PROJECT_DIR$/src/app/Http/Controllers/PostController.php" />
         <option value="$PROJECT_DIR$/src/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/src/resources/views/profile.blade.php" />
         <option value="$PROJECT_DIR$/laradock/php-fpm/php7.3.ini" />
@@ -202,6 +195,7 @@
         <option value="$PROJECT_DIR$/laradock/php-fpm/php5.6.ini" />
         <option value="$PROJECT_DIR$/src/custom.ini" />
         <option value="$PROJECT_DIR$/src/Procfile" />
+        <option value="$PROJECT_DIR$/src/app/Http/Controllers/PostController.php" />
       </list>
     </option>
   </component>
@@ -315,6 +309,33 @@
               <item name="things-like-instagram" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="things-like-instagram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="things-like-instagram" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="things-like-instagram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="things-like-instagram" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="things-like-instagram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="things-like-instagram" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="things-like-instagram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="things-like-instagram" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -361,12 +382,12 @@
       <workItem from="1557116061663" duration="13049000" />
       <workItem from="1557560321768" duration="13499000" />
       <workItem from="1557648736872" duration="4473000" />
-      <workItem from="1558015507307" duration="1078000" />
+      <workItem from="1558015507307" duration="1435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81750000" />
+    <option name="totallyTimeSpent" value="82107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -397,9 +418,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/storage/app/public/dQKNLx9CqLnJ9x0jSHwhmfjW0y0eeEzOMJtDe5DP.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Like.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -696,20 +714,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="28" column="75" lean-forward="true" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/custom.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -720,10 +735,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/custom.ini">
+    <entry file="file://$PROJECT_DIR$/src/config/queue.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="836">
+          <caret line="85" column="33" lean-forward="true" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
