@@ -29,7 +29,7 @@
             <textarea name="caption" class="form-control rounded-0" id="exampleFormControlTextarea1" rows="10"></textarea>
         <hr>
         {{ csrf_field() }}
-        <button class="btn btn-success"  onclick="fileupload()"> 投稿 </button>
+        <button class="btn btn-success"> 投稿 </button>
     </form>
 
 @endsection
