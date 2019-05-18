@@ -1,4 +1,7 @@
 function fileupload() {
+    console.log('helo');
+
+
     var uploadField = document.getElementById("file");
 
     uploadField.onchange = function () {
