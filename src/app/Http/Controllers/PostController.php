@@ -48,6 +48,7 @@ class PostController extends Controller
                 'file' => 'max:60000',
             ],
             'caption' => [
+                'required',
                 'max:200',
             ]
         ]);
