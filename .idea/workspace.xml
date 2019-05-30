@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/laradock/php-fpm/php7.1.ini" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/php-fpm/php7.1.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laradock/php-fpm/php7.2.ini" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/php-fpm/php7.2.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laradock/php-fpm/php7.3.ini" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/php-fpm/php7.3.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/PostController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/public/js/filesizelimit.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -70,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="588">
@@ -412,12 +411,12 @@
       <workItem from="1557116061663" duration="13049000" />
       <workItem from="1557560321768" duration="13499000" />
       <workItem from="1557648736872" duration="4473000" />
-      <workItem from="1558015507307" duration="6713000" />
+      <workItem from="1558015507307" duration="7193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87385000" />
+    <option name="totallyTimeSpent" value="87865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -763,13 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/js/filesizelimit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
@@ -777,6 +769,13 @@
           <folding>
             <element signature="e#40#53#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/js/filesizelimit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
